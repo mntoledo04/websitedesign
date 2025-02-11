@@ -1,0 +1,63 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+body {
+background: rgb(254, 212, 255);
+font-family: candara, arial,sans-serif;	
+}
+
+
+div#container {
+background: rgba(255,255,255,0.2);
+width: 800px;
+margin-left:auto;
+margin-right:auto;
+padding: 20px
+}
+	
+p{
+background: rgba(208, 245, 220);
+
+border: 2px solid pink; 
+border-radius: 5px;
+padding: 15px;
+padding-bottom: 20px;
+
+}
+
+main {
+padding: 20px;
+}
+
+header {
+border: 1px solid black;
+background:black;
+color:pink;
+padding: 10px;
+text-align: center;
+}
+
+
+header{
+font-family: franklin gothic medium
+}
+
+footer {
+font-size: 11px;
+background:black;
+color:pink;
+padding: 10px;
+text-align: center;
+}
